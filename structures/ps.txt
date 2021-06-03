@@ -1,0 +1,34 @@
+PYGAME
+
+name
+|------data
+|        |----__init__.py
+|        |----main.py
+|------resources
+|        |----videos
+|        |----images
+|        |----sprites
+|        |----audio
+|--- .gitignore
+|--- README.md
+|--- LICENSE
+
+DJANGO
+
+name=
+
+name --> _init_.py + asgi.py + settings.py + urls.py + wsgi.py
+manage.py
+README.md
+.gitignore
+LICENSE
+db.sqllite3
+
+FLASK
+
+static --> images + styles + scripts
+templates --> index.html
+app.py
+README.md
+.gitignore
+LICENSE
