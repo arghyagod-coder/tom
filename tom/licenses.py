@@ -6,7 +6,6 @@ date = currentDateTime.date()
 year = date.strftime("%Y")
 
 uname = pickle.load(open('tom/config/uname.dat', 'rb'))
-print(uname)
 mitli= (f'''MIT License
 
 Copyright (c) {year} {uname}

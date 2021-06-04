@@ -2,11 +2,12 @@ import click
 import pickle
 import subprocess as sb
 from click.utils import echo
+from buildkit import buildPython, buildPygame
 
 def run(command):
     sb.run(command, shell=True)
 
-langs = ['1. python', '2. go', '3. rust', '4. java', '5. c', '6. c++', '7. webdev', '8. flask', '9. pygame', '10. django', '11. reactjs', '12. vuejs', '13. angularjs', '14. swift', '15. py-ml']
+langs = ['1. python', '2. go', '3. py-pkg', '4. java', '5. c', '6. c++', '7. webdev', '8. flask', '9. pygame', '10. django', '11. swift', '12. py-ml', '13. CLI']
 licenses = ['apache', 'mit', 'gpl', 'bsd', 'epl', 'mpl', 'uni']
 
 @click.group()
